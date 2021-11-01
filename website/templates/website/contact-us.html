@@ -1,0 +1,84 @@
+{% extends 'website/main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="contactpage-main innerpage-main">
+    <div class="table"><img alt="table" src="images/jar.png" /></div>
+    <div class="aboutpage">
+        <div class="container innerpage-contents">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1>Contact us</h1>
+                </div>
+                <div class="contact_us_description">
+                    <span>
+
+                    </span>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <form action="https://formspree.io/f/mjvjzddq" method="post">
+                        <div class="form-main">
+                            <div class="form-div">
+                                <div class="input-box"><input type="text" name="name" id="name" class="input" required
+                                        placeholder="NAME" value="" /></div>
+                            </div>
+                            <div class="form-div">
+                                <div class="input-box"><input type="email" name="email" id="email" class="input"
+                                        required placeholder="EMAIL" value="" /></div>
+                            </div>
+                            <div class="form-div">
+                                <div class="input-box"><input type="text" name="phone" id="phone" class="input" required
+                                        placeholder="PHONE" value="" /></div>
+                            </div>
+                            <div class="form-div">
+                                <div class="input-box"><textarea name="message" id="message" class="input" required
+                                        placeholder="MESSAGE"></textarea></div>
+                            </div>
+                            <div class="form-div"><button type="submit" class="button">SUBMIT</button></div>
+                        </div>
+                    </form>
+                    <div class="address-main">
+
+                        <h2 class="corporate_office_title_h2"><strong>CORPORATE OFFICE :</strong></h2>
+                        <h3 class="corporate_office_title_h3">Cook and Care Foods</h3>
+                        <p>
+                            Sarigam, Gujarat <br>
+                            India
+                        </p>
+                        </p>
+                        <p>email <a href="mailto:info@cookandcarefoods.com">info@cookandcarefoods.com</a></p>
+
+                        <div class="social">
+                            <a href="https://www.facebook.com/Cook-Care-106281238481041" class="facebook" target="_blank"></a>
+                            <!-- <a href="https://twitter.com/" class="twitter" target="_blank"></a> -->
+                            <a href="https://www.instagram.com/cookandcarefoods" class="instagram" target="_blank"></a>
+                            <!-- <a href="https://in.linkedin.com/" class="linkedin" target="_blank"></a> -->
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+
+<div class="col-sm-6">
+
+    <p style="float: left; font-size: 14px;color: #FFF; line-height: 18px;    padding: 7px 0;">Copyright
+        © 2021 by Cook and Care Foods - All right reserved.</p>
+
+</div>
+<div class="col-sm-6">
+    <p style="float: left; font-size: 14px;color: #FFF; line-height: 18px;    padding: 7px 0;">
+        Designed and developed with ❤️ by
+        Khushi Infotech & Consultancy Services
+    </p>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+{% endblock content %}
